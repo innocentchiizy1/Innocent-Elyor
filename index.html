@@ -1,33 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Product landing page</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
 
-  <body>
-   <header id="header">
+<head>
+  <meta charset="UTF-8">
+  <title>Product landing page</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header id="header">
     <img id="header-img" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png">
-  <nav id="nav-bar">
-    <ul>
-      <li><a href="#" class="nav-link">Features</a></li>
-      <li><a href="#" class="nav-link">Features</a></li>
-      <li><a href="#" class="nav-link">Features</a></li>
-    </ul>
-    
-  </nav>
+    <nav id="nav-bar">
+      <ul>
+        <li><a href="#box" class="nav-link">Features</a></li>
+        <li><a href="#second" class="nav-link">How it works</a></li>
+        <li><a href="#email" class="nav-link">Pricing</a></li>
+      </ul>
+
+    </nav>
   </header>
-    <form id = "form">
-      <input id = "email" type = "email" placeholder="Please, enter your email!">
-      
-    <input href = "https://www.freecodecamp.com/email-submit" id="submit" type="submit" value="Get Started" class="btn">
+  <div id='first'>
+    <h1>Handcrafted, home-made masterpieces</h1>
+    <form id="form" action="post">
+      <input id="email" type="email" placeholder="Please, enter your email!"><br>
+
+      <input href="https://www.freecodecamp.com/email-submit" id="submit" type="submit" value="Get Started" class="btn">
     </form>
-    <iframe width="400" height="300" id="video" src ='https://youtu.be/y8Yv4pnO7qc'></video>
+  </div>
+  <div id="second">
+   
+    <h3>
+      <i class="fa fa-fire" id="icon"></i> Premium Materials</h3>
+    <p> Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your
+      purchase.</p>
+  </div>
+  <div id="second">
+    <h3 >
+      <i class="fa fa-truck" id="icon"></i> Fast Shipping</h3>
+    <p> We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if
+      you are not satisfied.</p>
+  </div>
+  <div id="second">
+    <h3>
+      <i class="fa fa-battery" id="icon"></i> Quality Assurance</h3>
+    <p> For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch
+      of your instrument.</p>
+  </div>
+  <iframe width="500" height="300" id="video" src='https://www.youtube.com/watch?v=CFEkjzf8DAA'></iframe>
+<div id='box'>
+  <h3>TENOR TROMBONE</h3>
+  <h4>$600</h4>
+  <ul>
+  <li>Lorem ipsum.</li>
+  <li>Lorem ipsum.</li>
+   <li>Lorem ipsum.</li></ul>
+</div>
+<div id='box'>
+  <h3>BASS TROMBONE</h3>
+  <h4>$900</h4>
+  <ul>
+  <li>Lorem ipsum.</li>
+  <li>Lorem ipsum.</li>
+   <li>Lorem ipsum.</li></ul>
+</div>
+<div id='box'>
+  <h3>VALVE TROMBONE</h3>
+  <h4>$1200</h4>
+  <ul>
+  <li>Lorem ipsum.</li>
+  <li>Lorem ipsum.</li>
+   <li>Lorem ipsum.</li></ul>
+</div>
 
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    
-    <script  src="js/index.js"></script>
-  </body>
+
+  <script src="js/index.js"></script>
+</body>
+
 </html>
